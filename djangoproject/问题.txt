@@ -1,0 +1,15 @@
+创建模型类的时候，遇到的问题
+
+	1、什么是抽象模型类
+	
+	2、class Meta:
+        db_table = 'df_goods_sku'
+        verbose_name = '商品'
+        verbose_name_plural = verbose_name
+		
+	3、image = models.FileField(upload_to='goods')
+	
+	4、 stock  库存  sales 销量
+	
+	
+	5、SmallIntegerField [-32768 ,32767]的取值范围对Django所支持的数据库都是安全的。取值范围依赖于数据库特性
